@@ -11,10 +11,14 @@ document.body.appendChild(canvas)
 // create a start button
 let startGame = document.createElement('h3')
 let description = document.createElement('h3')
+let description2 = document.createElement('h3')
 startGame.innerHTML = "To start, please press 'Ctrl + Q'"
 description.innerHTML = 'use arrow key to move and spacebar to shoot'
+description2.innerHTML =
+  'every 50 kills, aliens spawn at faster rate, try beat it!'
 document.body.appendChild(startGame)
 document.body.appendChild(description)
+document.body.appendChild(description2)
 
 let backgroundImage, spacecraftImage, bulletImage, alienImage, gameOverImage
 let gameOver = false
