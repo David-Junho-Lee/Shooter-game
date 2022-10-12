@@ -10,8 +10,11 @@ document.body.appendChild(canvas)
 
 // create a start button
 let startGame = document.createElement('h3')
+let description = document.createElement('h3')
 startGame.innerHTML = "To start, please press 'Ctrl + Q'"
+description.innerHTML = 'use arrow key to move and spacebar to shoot'
 document.body.appendChild(startGame)
+document.body.appendChild(description)
 
 let backgroundImage, spacecraftImage, bulletImage, alienImage, gameOverImage
 let gameOver = false
